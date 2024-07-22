@@ -1,7 +1,6 @@
 import 'package:another_carousel_pro/another_carousel_pro.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:login_page/pages/discription.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
