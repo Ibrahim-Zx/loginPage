@@ -186,12 +186,7 @@ class HomePage extends StatelessWidget {
                   ),
                   GestureDetector(
                     onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const Discription(),
-                        ),
-                      );
+                      Navigator.pushNamed(context, '/discriptionPage');
                     },
                     child: Container(
                       margin: const EdgeInsets.only(top: 10, left: 180),

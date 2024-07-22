@@ -153,12 +153,7 @@ class _LoginPageState extends State<LoginPage> {
   submitButton() {
     return GestureDetector(
       onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (e) => const HomePage(),
-          ),
-        );
+        Navigator.pushNamed(context, '/homePage');
       },
       child: Container(
         height: 50,

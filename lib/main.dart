@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:login_page/pages/discription.dart';
+import 'package:login_page/pages/home.dart';
 import 'package:login_page/pages/login.dart';
 
 void main() {
@@ -10,9 +12,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: LoginPage(),
+      routes: {
+        '/homePage': (context) => const HomePage(),
+        '/discriptionPage': (context) => const Discription(),
+      },
     );
   }
 }
